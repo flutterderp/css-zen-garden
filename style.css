@@ -1,0 +1,26 @@
+/* CSS released under Creative Commons License - https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,600|Roboto:400,400i,600');
+
+/* basic elements */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fefefe; color: #333; font-family: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px; line-height: 1.6; text-align: left; }
+
+abbr { text-decoration: underline dotted; }
+h1 { font-size: 3rem; line-height: 1.4; margin: 1rem 0; }
+h2 { font-size: 2.25rem; font-weight: normal; margin: 1.5rem 0; }
+h3 { font-size: 1.75rem; margin: 0.875rem 0; }
+h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', Times, serif; font-weight: bold; }
+p { margin: 0 0 0.75rem; }
+
+.page-wrapper { margin: auto; max-width: 75rem; }
+
+/* Intro section */
+.summary { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', Times, serif; font-size: 1.5rem;
+	font-style: italic; float: left; line-height: 1.4; margin: 0 2rem 2rem 0; padding: 1.5rem 1.5rem;
+	width: 32%; }
+
+/* Main copy area */
+.main {
+	clear: both;
+}
